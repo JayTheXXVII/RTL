@@ -6,7 +6,7 @@
 ╚═══╢Paste RTL.css & Save CSS  
 ### Works Better With [RevertX2](https://github.com/JayTheXXVII/RevertX2)
 ## Screenshots
-### Regular Side Bar─────────────────────────────────────────────────┐
+### Regular Side Bar──────────────────────────────────────────┐
 ![Screenshot from Google Play Store](https://play-lh.googleusercontent.com/kDXJ6XA2Cm47lzDCvvu6HNCu0PWmTwZKiY0ldCWrCgXGT3Ms-lbP_WN1v5vknspnLT15=w5120-h2880) 
 ### RTL & RevertX2─┐
 ![Screenshot of RTL](https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20%26%20RevertX2.png)
