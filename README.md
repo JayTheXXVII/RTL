@@ -1,9 +1,11 @@
 # Installation
 ╔═╢Install [Spicetify](https://spicetify.app/)  
 ║  
+╠══╢Press `F12` Copy/Paste `@import url(https://jaythexxvii.github.io/RTL/RTL.css);` into the CSS prompt
+### ║ or
 ╠══╢In Spotify go to Marketplace > Snippets > + Add CSS  
 ║  
-╚═══╢Copy/Paste the contents of RTL.css into the Custom CSS prompt & Save CSS <br> or paste `@import url(https://jaythexxvii.github.io/RTL/RTL.css);` into the CSS prompt      
+╚═══╢Copy/Paste the contents of RTL.css into the Custom CSS prompt & Save CSS 
 ### Works Best With [RevertX2](https://github.com/JayTheXXVII/RevertX2)
 # Screenshots
 ### Regular Spotify Side Bar
