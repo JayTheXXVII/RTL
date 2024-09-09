@@ -7,7 +7,7 @@
 ╠══╢In Spotify go to Marketplace > Snippets > + Add CSS  
 ║  
 ╚═══╢Copy/Paste the contents of RTL.css into the Custom CSS prompt & Save CSS 
-### Works Best With [RevertX2](https://github.com/JayTheXXVII/RevertX2)
+### Intended To Be Used With [RevertX2](https://github.com/JayTheXXVII/RevertX2)
 # Screenshots
 |Regular Spotify Side Bar|
 |---|
