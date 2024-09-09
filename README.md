@@ -1,4 +1,5 @@
 # Installation
+# *Supports Spotify version 1.2.45.454*
 ╔═╢Install [Spicetify](https://spicetify.app/)  
 ║  
 ╠══╢Press `F12` Copy/Paste `@import url(https://jaythexxvii.github.io/RTL/RTL.css);` into the CSS prompt
