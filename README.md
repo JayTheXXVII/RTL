@@ -1,11 +1,11 @@
 # Installation
-### *Supports Spotify version [1.2.45.454](https://docs.google.com/spreadsheets/d/1wztO1L4zvNykBRw7X4jxP8pvo11oQjT0O5DvZ_-S4Ok/edit?pli=1&gid=803394557#gid=803394557a)*
+### *RTL-Legacy Supports Only Spotify version [1.2.45.454](https://docs.google.com/spreadsheets/d/1wztO1L4zvNykBRw7X4jxP8pvo11oQjT0O5DvZ_-S4Ok/edit?pli=1&gid=803394557#gid=803394557a)*
 
 1. - Install [Spicetify](https://spicetify.app/)  
-2. - Press `F12` Copy/Paste `@import url(https://jaythexxvii.github.io/RTL/RTL.css);` into the CSS prompt (*Updates Automatically*) or;
+2. - Press `F12` Copy/Paste `@import url(https://jaythexxvii.github.io/RTL/RTL.css);` into the [CSS prompt](https://github.com/FlafyDev/spotify-css-editor) (*Updates Automatically*) or;
    - In Spotify go to Marketplace > Snippets > + Add CSS & Paste the contents of [RTL.css](https://jaythexxvii.github.io/RTL/RTL.css) into the Custom CSS prompt & Save (*MUST Manually Update*)
 
-### Intended To Be Used With [RevertX2](https://github.com/JayTheXXVII/RevertX2)
+### Intended To Be Used With [RevertX2](https://github.com/JayTheXXVII/RevertX2) (*RTL-Legacy works with [RevertX2-Legacy](https://github.com/JayTheXXVII/RevertX2-Legacy)*)
 # Screenshots
 
 |RevertX2 with RTL Side Bar|
