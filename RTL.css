@@ -7,16 +7,16 @@
     max-height: 320px;
 }
 /*.main-buddyFeed-container[aria-label="Now playing view"]*/
-.ffFwfKcPDbmAPLXzxzKq[aria-label="Now playing view"] {
+.ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"] {
 	align-self: flex-end;
 	height: 320px;
     max-width: 280px !important;
 }
-.ffFwfKcPDbmAPLXzxzKq[Aria-label="Now playing view"], [Aria-label="Friend Activity"] {
+.ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"] {
     min-width: -webkit-fill-available !important;
 }
 /*.main-buddyFeed-container[aria-label="Queue"], [Aria-label="Friend Activity"]*/
-.ffFwfKcPDbmAPLXzxzKq[aria-label="Queue"], [Aria-label="Friend Activity"] {
+.ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"] {
     margin-bottom: 0px !important;
     align-self: end;
     height: 320px;
@@ -47,10 +47,10 @@ aside#Desktop_PanelContainer_Id {
     min-width: 280px !important;
     position: fixed;
 }
-.Root__right-sidebar > [Aria-label="Queue"], [Aria-label="Friend Activity"] {
+.ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"] {
     min-inline-size: -webkit-fill-available;
 }
-.Root__right-sidebar > [Aria-label="Now playing view"], [Aria-label="Friend Activity"] {
+.ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"] {
     min-width: -webkit-fill-available !important;
 }
 .ugPGmh_iv4lIuZkY1ZnL, .main-buddyFeed-content {
@@ -101,8 +101,8 @@ aside#Desktop_PanelContainer_Id {
     display: none;
 }
 /*v1.2.45.454 Queue and Friend Activity Position Fix*/
-.ffFwfKcPDbmAPLXzxzKq[aria-label=Queue], [Aria-label="Friend Activity"]{
-	bottom: 80px;
+.ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"]{
+	bottom: 100px;
 }
 button.encore-over-media-set.main-topBar-buddyFeed {
     bottom: 0px !important;
