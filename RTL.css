@@ -1,6 +1,4 @@
-.Root__now-playing-bar {
-	background: var(--background);
-}
+/*.Root__now-playing-bar {background: var(--background);}*/
 .ugPGmh_iv4lIuZkY1ZnL, .main-buddyFeed-content {
     width: 280px;
     margin-bottom: 150px;
@@ -43,7 +41,7 @@ html.no-focus-outline.spotify__os--is-windows.spotify__container--is-desktop {
 }
 aside#Desktop_PanelContainer_Id {
     pointer-events: auto;
-    width: -webkit-fill-available !important;
+    width: calc(var(--left-sidebar-width)*1.55px); /*-webkit-fill-available !important*/
     min-width: 280px !important;
     position: fixed;
 }
