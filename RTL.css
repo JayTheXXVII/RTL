@@ -18,11 +18,11 @@
     margin-bottom: 0px !important;
     align-self: end;
     height: 320px;
-	min-inline-size: -webkit-fill-available;
+   	min-inline-size: -webkit-fill-available;
     max-width: 280px !important;
 }
 .XOawmCGZcQx4cesyNfVO {
-	display: contents;
+  	display: contents;
     position: fixed;
     justify-content: end;
 }
@@ -41,9 +41,12 @@ html.no-focus-outline.spotify__os--is-windows.spotify__container--is-desktop {
 }
 aside#Desktop_PanelContainer_Id {
     pointer-events: auto;
-    width: calc(var(--left-sidebar-width)*1.55px); /*-webkit-fill-available !important*/
+    width: inherit; /*-webkit-fill-available !important*/
     min-width: 280px !important;
     position: fixed;
+    padding-top: 0rem !important;
+    height: calc(160 * 3px);
+        margin-top: 715px;
 }
 .ffFwfKcPDbmAPLXzxzKq[id="Desktop_PanelContainer_Id"] {
     min-inline-size: -webkit-fill-available;
@@ -126,3 +129,7 @@ button.encore-over-media-set.main-topBar-buddyFeed {
 }
 /*Devices*/
 .main-devicePicker-tooltip{height:210px!important;padding-top:35px!important;padding-bottom:175px}html.no-focus-outline.spotify__os--is-windows.spotify__container--is-desktop{overflow:hidden!important}.main-devicePicker-devices{max-height:150px!important;min-height:75px!important;height:75px!important}.n7lpLbjlkn69nQ1BhwZg,.n7lpLbjlkn69nQ1BhwZg.ZtZC7H7E6gtj5tlwNsn8{max-height:150px!important;overflow-y:auto!important}.ajXfdFS_TUChA63kTlhA{display:none}.jd5BgldghOe68KEXK_hS{--device-picker-max-height:0px;min-height:75px}.CgzneMEIFUgv7Gxkf_pM{padding:8px 16px}.l6OcBOr8WqpAei2v3T50{margin-bottom:5px}aside#Desktop_PanelContainer_Id[aria-label="Connect to a device"]{pointer-events:auto;width:-webkit-fill-available!important;min-width:280px!important;position:fixed;max-width:fit-content;height:auto;bottom:60px}svg.Svg-sc-ytk21e-0.Svg-presentation-icon-large-textBrightAccent.KdGUk56d2SlrvrUsFjB1{filter:none!important}.main-genericButton-button.main-genericButton-buttonActive{color:var(--spice-color)}
+/*Right Edge Gap Fix*/
+.Root__top-container{padding-right: 0px !important;}
+/*Top Right Content Bubbles Alignment*/
+.Root__globalNav .main-topBar-topbarContentRight {right: 0px !important; top: 8px; margin-inline-end: 12em !important;}
