@@ -9,9 +9,7 @@
 	height: 320px;
     max-width: 280px !important;
 }
-.ffFwfKcPDbmAPLXzxzKq[Aria-label="Now playing view"], [Aria-label="Friend Activity"] {
-    min-width: -webkit-fill-available !important;
-}
+/*.ffFwfKcPDbmAPLXzxzKq[Aria-label="Now playing view"], [Aria-label="Friend Activity"] {min-width: -webkit-fill-available !important;*/
 /*.main-buddyFeed-container[aria-label="Queue"], [Aria-label="Friend Activity"]*/
 .ffFwfKcPDbmAPLXzxzKq[aria-label="Queue"], [Aria-label="Friend Activity"] {
     margin-bottom: 0px !important;
