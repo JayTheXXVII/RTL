@@ -100,7 +100,7 @@ aside#Desktop_PanelContainer_Id {
 }
 /*v1.2.45.454 Queue and Friend Activity Position Fix*/
 .ffFwfKcPDbmAPLXzxzKq[aria-label=Queue], [Aria-label="Friend Activity"]{
-	bottom: 80px;
+	bottom: calc(var(--left-sidebar-grid-area-z-index)* 22px) !important;
 }
 button.encore-over-media-set.main-topBar-buddyFeed {
     bottom: 0px !important;
@@ -125,7 +125,7 @@ button.encore-over-media-set.main-topBar-buddyFeed {
     color: var(--spice-color);
 }
 /*Devices*/
-.main-devicePicker-tooltip{height:210px!important;padding-top:35px!important;padding-bottom:175px}html.no-focus-outline.spotify__os--is-windows.spotify__container--is-desktop{overflow:hidden!important}.main-devicePicker-devices{max-height:150px!important;min-height:75px!important;height:75px!important}.n7lpLbjlkn69nQ1BhwZg,.n7lpLbjlkn69nQ1BhwZg.ZtZC7H7E6gtj5tlwNsn8{max-height:150px!important;overflow-y:auto!important}.ajXfdFS_TUChA63kTlhA{display:none}.jd5BgldghOe68KEXK_hS{--device-picker-max-height:0px;min-height:75px}.CgzneMEIFUgv7Gxkf_pM{padding:8px 16px}.l6OcBOr8WqpAei2v3T50{margin-bottom:5px}aside#Desktop_PanelContainer_Id[aria-label="Connect to a device"]{pointer-events:auto;min-width: calc(var(--left-sidebar-width)* 1px) !important;width:-webkit-fill-available!important;position:fixed;max-width:fit-content;height:auto;bottom:60px}svg.Svg-sc-ytk21e-0.Svg-presentation-icon-large-textBrightAccent.KdGUk56d2SlrvrUsFjB1{filter:none!important}.main-genericButton-button.main-genericButton-buttonActive{color:var(--spice-color)}
+.main-devicePicker-tooltip{height:210px!important;padding-top:35px!important;padding-bottom:175px}html.no-focus-outline.spotify__os--is-windows.spotify__container--is-desktop{overflow:hidden!important}.main-devicePicker-devices{max-height:150px!important;min-height:75px!important;height:75px!important}.n7lpLbjlkn69nQ1BhwZg,.n7lpLbjlkn69nQ1BhwZg.ZtZC7H7E6gtj5tlwNsn8{max-height:150px!important;overflow-y:auto!important}.ajXfdFS_TUChA63kTlhA{display:none}.jd5BgldghOe68KEXK_hS{--device-picker-max-height:0px;min-height:75px}.CgzneMEIFUgv7Gxkf_pM{padding:8px 16px}.l6OcBOr8WqpAei2v3T50{margin-bottom:5px}aside#Desktop_PanelContainer_Id[aria-label="Connect to a device"]{pointer-events:auto;width: 280px !important;position:fixed;height:320px !important;bottom: calc(var(--left-sidebar-grid-area-z-index)* 22px) !important;}svg.Svg-sc-ytk21e-0.Svg-presentation-icon-large-textBrightAccent.KdGUk56d2SlrvrUsFjB1{filter:none!important}.main-genericButton-button.main-genericButton-buttonActive{color:var(--spice-color)}
 
 /*RTL Cover Position & Aspect Ratio*/
 .hCImOEZCJwYaSy2r1Xgx {justify-content: flex-end;}
@@ -136,7 +136,7 @@ button.encore-over-media-set.main-topBar-buddyFeed {
 ._q9LkNJJIpxoOkOFI2Nd {visibility: visible !important;}
 .spotify__container--is-desktop .hjyiWzPtKHn_5kCe9vyg.pUIBQ9cykHKYx2A2ZIPA {height: var(--left-sidebar-width); min-height: 16em !important; aspect-ratio: 1 !important;}
 .main-nowPlayingView-coverArtContainer.hjyiWzPtKHn_5kCe9vyg {aspect-ratio: 1 !important;}
-.ffFwfKcPDbmAPLXzxzKq[aria-label="Now playing view"] {/*height: calc(var(--left-sidebar-width)* 1.135px) !important; */min-height: calc(var(--left-sidebar-width)* 1.15px) !important;}
+.ffFwfKcPDbmAPLXzxzKq[aria-label="Now playing view"] {height: 320px !important; min-height: calc(var(--left-sidebar-width)* 1.15px) !important;}
 
 /*Share Button*/
-.main-watchFeed-shareButton {top: 10px;}
+.main-watchFeed-shareButton {top: 10px;}	
