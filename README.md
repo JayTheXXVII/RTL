@@ -5,7 +5,7 @@
 2. - Press `F12` Copy/Paste `@import url(https://jaythexxvii.github.io/RTL/RTL.css);` into the [CSS prompt](https://github.com/FlafyDev/spotify-css-editor) (*Updates Automatically*) or;
    - In Spotify go to Marketplace > Snippets > + Add CSS & Paste the contents of [RTL.css](https://jaythexxvii.github.io/RTL/RTL.css) into the Custom CSS prompt & Save (*MUST Manually Update*)
 
-### Intended To Be Used With [RevertX2](https://github.com/JayTheXXVII/RevertX2) (*RTL-Legacy works with [RevertX2-Legacy](https://github.com/JayTheXXVII/RevertX2-Legacy)*)
+### Fully Compatible With [RevertX2](https://github.com/JayTheXXVII/RevertX2) (*RTL-Legacy works with [RevertX2-Legacy](https://github.com/JayTheXXVII/RevertX2-Legacy)*)
 # Screenshots
 
 |RevertX2 with RTL Side Bar|
