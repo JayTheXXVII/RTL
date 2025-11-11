@@ -43,7 +43,7 @@ aside#Desktop_PanelContainer_Id {
     width: -webkit-fill-available !important;
     min-width: calc(var(--left-sidebar-width)* 1px) !important;
     min-height: calc(var(--left-sidebar-width)* 1px) !important;
-    position: absolute;
+    position: fixed;
 }
 .Root__right-sidebar > [Aria-label="Queue"], [Aria-label="Friend Activity"] {
     min-inline-size: -webkit-fill-available;
@@ -136,7 +136,7 @@ button.encore-over-media-set.main-topBar-buddyFeed {
 ._q9LkNJJIpxoOkOFI2Nd {visibility: visible !important;}
 .spotify__container--is-desktop .hjyiWzPtKHn_5kCe9vyg.pUIBQ9cykHKYx2A2ZIPA {height: var(--left-sidebar-width); min-height: 16em !important; aspect-ratio: 1 !important;}
 .main-nowPlayingView-coverArtContainer.hjyiWzPtKHn_5kCe9vyg {aspect-ratio: 1 !important;}
-.ffFwfKcPDbmAPLXzxzKq[aria-label="Now playing view"] {height: calc(var(--left-sidebar-width)* 1.135px) !important; min-height: calc(var(--left-sidebar-width)* 1.15px) !important;}
+.ffFwfKcPDbmAPLXzxzKq[aria-label="Now playing view"] {/*height: calc(var(--left-sidebar-width)* 1.135px) !important; */min-height: calc(var(--left-sidebar-width)* 1.15px) !important;}
 
 /*Share Button*/
 .main-watchFeed-shareButton {top: 10px;}
