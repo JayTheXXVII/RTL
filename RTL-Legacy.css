@@ -1,3 +1,7 @@
+/*Navbar Background Colour*/
+.main-nowPlayingBar-nowPlayingBar {
+    background: var(--spice-main);
+}
 .ugPGmh_iv4lIuZkY1ZnL, .main-buddyFeed-content {
     width: 280px;
     margin-bottom: 150px;
