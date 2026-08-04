@@ -42,27 +42,22 @@
 <header class="RTL-Nav">
 		<body>
 			<font size="+10" face="Arial"> <h2 class="RTL-Header"> <a href="https://github.com/JayTheXXVII/RTL">RTL</a> </font> </h2>
-			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20%26%20RevertX2.png" alt="RTL" class="center" />				
+			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20%26%20RevertX2.png" alt="RTL" class="center" onclick="expandImage(this)"/>				
 		<div class="row">
 			<div class="column">
-			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset%201.png" alt="Quick View" style="width:100%">
+			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset%201.png" alt="Quick View" style="width:100%" onclick="expandImage(this)">
 		</div>
 		<div class="column">
-			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset.png" alt="Queue" style="width:100%">
+			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset.png" alt="Queue" style="width:100%" onclick="expandImage(this)">
 		</div>
 		<div class="column">
-			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset%202.png" alt="Recently Played" style="width:100%">
+			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset%202.png" alt="Recently Played" style="width:100%" onclick="expandImage(this)">
 		</div>
 		<div class="column">
-			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset%203.png" alt="Friend Activity" style="width:100%">
+			<img src="https://raw.githubusercontent.com/JayTheXXVII/jaythexxvii.github.io/main/Assets/RTL%20asset%203.png" alt="Friend Activity" style="width:100%" onclick="expandImage(this)">
 		</div>
 		</div> 
-		<style>
-			.center {max-width: -moz-available;}
-			.column {display: table-cell;}
-			#cloudflare-status {font-size: medium;}
-			.RTL-Header {font-size: xxx-large;}
-		</style>
+
 	</body>
 	</header>
  </nav>
@@ -76,6 +71,22 @@
 </div>
 
     <script>
+<!-- Zoom Logic -->	
+function expandImage(imgElement) {
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  
+  // Set the source of the large image to match the clicked thumbnail
+  lightboxImg.src = imgElement.src;
+  // Show the overlay
+  lightbox.style.display = "flex";
+}
+
+function closeImage() {
+  // Hide the overlay
+  document.getElementById("lightbox").style.display = "none";
+}
+
 <!-- Darkmode Logic -->
         const isDarkMode = () => window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
         console.log(isDarkMode()); // true or false
@@ -186,6 +197,54 @@
         });
 </script>
 <style>
+/*Zoom Theming*/
+		/* Thumbnail styling */
+	.center {
+	  cursor: pointer !important;
+	  transition: transform 0.2s;
+	}
+	.center:hover {
+	  transform: scale(1.005);
+	}
+
+	/* Lightbox hidden by default */
+	#lightbox {
+	  display: none;
+	  position: fixed;
+	  z-index: 999;
+	  top: 0; left: 0;
+	  width: 100%; height: 100%;
+	  background-color: rgba(0, 0, 0, 0.8);
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	/* Expanded image style */
+	#lightbox-img {
+	  max-width: 100%;
+	  max-height: 100%;
+	  transform: scale(1.5);
+	  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+	  padding: 0px 30% 0 30%;
+	}
+
+
+@media (max-width: 768px) {
+	#lightbox-img {
+	  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+	  max-width: -moz-available !important;
+	  padding: 0 5% 0 5%;
+	  transform: scale(0.85);
+	}
+}
+	/* Close button */
+	#close-btn {
+	  position: absolute;
+	  top: 20px; right: 30px;
+	  color: white;
+	  font-size: 40px;
+	  cursor: pointer;
+	}
 	@media (prefers-color-scheme: dark) {
 		body {color: white !important;}
 		.drop-nav a {color: white !important;}
@@ -552,7 +611,14 @@
         font-size: x-small;
     }
 
-	
+	.center {max-width: -moz-available;}
+	.column {display: table-cell;}
+	#cloudflare-status {font-size: medium;}
+	.RTL-Header {font-size: xxx-large;}
 </style>
+	<div id="lightbox" onclick="closeImage()">
+	  <span id="close-btn">&times;</span>
+	  <img id="lightbox-img" alt="Expanded View">
+	</div>
 </body>
 </html>
