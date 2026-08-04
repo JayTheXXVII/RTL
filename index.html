@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="https://www.xxvii.org/Assets/CSS/sharedstyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XXVII</title>
@@ -199,11 +200,12 @@ function closeImage() {
 <style>
 /*Zoom Theming*/
 		/* Thumbnail styling */
-	.center {
+	.center, .column {
 	  cursor: pointer !important;
 	  transition: transform 0.2s;
+	  max-width: calc(100% / 1.2);
 	}
-	.center:hover {
+	.center:hover, .column:hover {
 	  transform: scale(1.005);
 	}
 
@@ -223,8 +225,8 @@ function closeImage() {
 	#lightbox-img {
 	  max-width: 100%;
 	  max-height: 100%;
-	  transform: scale(1.5);
-	  padding: 0px 30% 0 30%;
+	  transform: scale(1.25);
+	  padding: 6% 0 6% 0;
 	}
 
 
@@ -609,7 +611,6 @@ function closeImage() {
         font-size: x-small;
     }
 
-	.center {max-width: -moz-available;}
 	.column {display: table-cell;}
 	#cloudflare-status {font-size: medium;}
 	.RTL-Header {font-size: xxx-large;}
