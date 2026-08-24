@@ -64,10 +64,9 @@
  </nav>
 	<nav class="cloudflare-staus-nav" >
 	<div id="cloudflare-status">Cloudflare Status: Checking...</div>
-	<span class="display-time" id="display-time"></span> <span class="ip-address" id="ip-address">Loading...</span>
-		<div class="XXVII-Bottom" >
-			Made By XXVII
-		</div>
+	<div class="XXVII-Bottom" > <span class="display-time" id="display-time"></span> <span class="ip-address" id="ip-address">Loading...</span>
+		<span class="made-by-xxvii" > Made By XXVII</span>
+	</div>
 	</nav>
 </div>
 
@@ -613,6 +612,16 @@ function closeImage() {
 
 	.column {display: table-cell;}
 	#cloudflare-status {font-size: medium;}
+
+	.XXVII-Bottom {
+	  display: flex;
+	  flex-direction: column;
+	}
+	
+	#cloudflare-status, .XXVII-Bottom {
+	  max-width: fit-content;
+	}
+
 </style>
 	<div id="lightbox" onclick="closeImage()">
 	  <span id="close-btn">&times;</span>
